@@ -6,7 +6,14 @@ class Car{
     private int $nbSeats;
     private string $energy;
     private int $eneryLevel;
-
+    
+    
+    public function __construct(string $color, int $nbSeats, string $energy)
+    {
+        $this->color = $color;
+        $this->nbSeats = $nbSeats;
+        $this->energy =$energy;
+    }
     
     public function getNbWheels()
     {
