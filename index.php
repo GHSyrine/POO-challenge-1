@@ -16,7 +16,7 @@ echo '<br> Vitesse du vélo : ' . $bike->currentSpeed . ' km/h' . '<br>';
 echo $bike->brake();
 ?><br>
 <?php
-$car = new Car();
+$car = new Car('blue', 1, 'fuel');
 echo $car->start();
 echo 'démarrrage';
 echo $car->forward();
